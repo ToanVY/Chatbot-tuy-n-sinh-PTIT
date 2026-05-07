@@ -1,0 +1,1422 @@
+{
+  "truong": {
+    "ten": "Học viện Công nghệ Bưu chính Viễn thông",
+    "ten_viet_tat": "PTIT",
+    "website_tuyen_sinh": "https://tuyensinh.ptit.edu.vn/",
+    "thanh_lap": "Thành lập theo quyết định số 516/TTg ngày 11/7/1997 của Thủ tướng Chính phủ",
+    "truc_thuoc": "Bộ Thông tin và Truyền thông (từ 1/7/2014)",
+    "mo_ta": "Học viện Công nghệ Bưu chính Viễn thông là đơn vị sự nghiệp trực thuộc Bộ Thông tin và Truyền thông. Là trường đại học, đơn vị nghiên cứu, phát triển nguồn nhân lực trọng điểm của Ngành Thông tin và Truyền thông.",
+    "co_so": [
+      {
+        "ten": "Trụ sở chính (Cơ sở Hà Nội - BVH)",
+        "ma": "BVH",
+        "dia_chi": "Số 122 Hoàng Quốc Việt, phường Nghĩa Đô, thành phố Hà Nội"
+      },
+      {
+        "ten": "Cơ sở đào tạo tại Hà Nội",
+        "dia_chi": "Số 96A Trần Phú, phường Hà Đông, thành phố Hà Nội"
+      },
+      {
+        "ten": "Học viện cơ sở tại TP. Hồ Chí Minh (BVS)",
+        "ma": "BVS",
+        "dia_chi": "Số 11 Nguyễn Đình Chiểu, phường Sài Gòn, Thành phố Hồ Chí Minh"
+      },
+      {
+        "ten": "Cơ sở đào tạo tại TP Hồ Chí Minh",
+        "dia_chi": "Số 97 Man Thiện, phường Tăng Nhơn Phú, thành phố Hồ Chí Minh"
+      }
+    ],
+    "lien_he": {
+      "dien_thoai": "(024) 33528122",
+      "email": "tuyensinh@ptit.edu.vn",
+      "facebook": "https://www.facebook.com/ptittuyensinh/",
+      "don_vi": "Phòng Đào tạo - HVCNBCVT"
+    },
+    "portal": {
+      "cong_thong_tin_hoc_vien": "https://portal.ptit.edu.vn/",
+      "cong_dao_tao": "https://daotao.ptit.edu.vn/",
+      "tra_cuu_tuyen_sinh": "https://tracuu.ptit.edu.vn/",
+      "nop_ho_so": "https://xettuyen.ptit.edu.vn/",
+      "hop_tac_quoc_te": "https://htqt.ptit.edu.vn/",
+      "khoa_hoc_cong_nghe": "https://khcn.ptit.edu.vn/"
+    }
+  },
+  "hoc_bong": {
+    "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/chinh-sach-hoc-bong/",
+    "nam": 2026,
+    "cac_loai": [
+      {
+        "loai": "Học bổng đặc biệt",
+        "so_suat_toi_da": 30,
+        "gia_tri": "Lên tới 500 triệu đồng/suất",
+        "chi_tiet_gia_tri": "Gồm: học phí toàn thời gian học, chi phí ăn ở, kinh phí nghiên cứu khoa học, thực tập ở nước ngoài, kinh phí hỗ trợ từ doanh nghiệp đối tác",
+        "doi_tuong": [
+          "Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 29,0 điểm trở lên (không bao gồm điểm cộng)"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên trong thời gian học"
+      },
+      {
+        "loai": "Học bổng toàn phần",
+        "so_suat_toi_da": 50,
+        "gia_tri": "Lên tới 250 triệu đồng (tối đa bằng học phí toàn khóa chương trình chất lượng cao)",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Khuyến khích kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí, Tin học",
+          "Thí sinh đoạt giải Nhất kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,5 điểm trở lên"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng bán phần",
+        "so_suat_toi_da": 50,
+        "gia_tri": "Lên tới 100 triệu đồng (tối đa 100% học phí 2 năm đầu chương trình CLC)",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Nhất, Nhì kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,0 điểm trở lên"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng miễn 100% học phí năm học thứ nhất",
+        "so_suat_toi_da": 100,
+        "gia_tri": "Miễn 100% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi học sinh giỏi quốc tế, quốc gia",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Hóa, Tin học",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT"
+        ]
+      },
+      {
+        "loai": "Học bổng miễn 50% học phí năm học thứ nhất",
+        "so_suat_toi_da": 300,
+        "gia_tri": "Miễn 50% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi học sinh giỏi",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT"
+        ]
+      }
+    ],
+    "hoc_bong_doanh_nghiep": [
+      "Samsung (Hàn Quốc)",
+      "Cowell Asia (Nhật Bản)",
+      "Tập đoàn Điện lực Nhật Bản Yokogawa (Nhật Bản)",
+      "Đại học Sydney (Úc)",
+      "TEMIX (Italy)",
+      "Bosch"
+    ],
+    "luu_y": "Thí sinh chỉ được xét và cấp một loại học bổng; xét cấp từ trên xuống cho đến hết số suất.",
+    "cac_loai_chi_tiet": [
+      {
+        "loai": "Học bổng đặc biệt",
+        "url": "https://tuyensinh.ptit.edu.vn/hoc-bong-dac-biet/",
+        "nam": 2026,
+        "so_suat_toi_da": 30,
+        "gia_tri": "Tới 500 triệu đồng/suất",
+        "chi_tiet_gia_tri": "Gồm: học phí trong toàn thời gian học, chi phí ăn ở, kinh phí nghiên cứu khoa học, thực tập ở nước ngoài, kinh phí hỗ trợ từ doanh nghiệp đối tác và các hỗ trợ khác",
+        "doi_tuong": [
+          "Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí và Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 29,0 điểm trở lên (không bao gồm điểm cộng và điểm ưu tiên)"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy năm học liên tục đạt từ loại Giỏi trở lên trong thời gian học tập",
+        "luu_y": "Thí sinh chỉ được nhận 1 loại học bổng; xét từ trên xuống hết số suất"
+      },
+      {
+        "loai": "Học bổng toàn phần",
+        "url": "https://tuyensinh.ptit.edu.vn/hoc-bong-toan-phan/",
+        "nam": 2026,
+        "so_suat_toi_da": 50,
+        "gia_tri": "Tới 250 triệu đồng/suất",
+        "chi_tiet_gia_tri": "Tối đa bằng học phí toàn khóa chương trình chất lượng cao",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Khuyến khích kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí và Tin học",
+          "Thí sinh đoạt giải Nhất kỳ thi học sinh giỏi cấp Tỉnh/TP trực thuộc TW môn Toán, Vật lí và Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,5 điểm trở lên (không bao gồm điểm cộng và điểm ưu tiên)"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy năm học liên tục đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng bán phần",
+        "url": "https://tuyensinh.ptit.edu.vn/hoc-bong-ban-phan/",
+        "nam": 2026,
+        "so_suat_toi_da": 50,
+        "gia_tri": "Tới 100 triệu đồng/suất",
+        "chi_tiet_gia_tri": "Tối đa bằng 100% học phí hai năm học đầu tiên của chương trình chất lượng cao",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Khuyến khích kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí và Tin học",
+          "Thí sinh đoạt giải Nhất, Nhì kỳ thi học sinh giỏi cấp Tỉnh/TP trực thuộc TW môn Toán, Vật lí và Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,0 điểm trở lên (không bao gồm điểm cộng và điểm ưu tiên)"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy năm học liên tục đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng miễn 100% học phí năm học thứ nhất",
+        "url": "https://tuyensinh.ptit.edu.vn/hoc-bong-cho-thi-sinh-dat-thanh-tich-cao/",
+        "nam": 2026,
+        "so_suat_toi_da": 100,
+        "gia_tri": "Miễn 100% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi chọn học sinh giỏi quốc tế, quốc gia",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi chọn học sinh giỏi cấp Tỉnh/TP trực thuộc TW môn Toán, Vật lí, Hóa và Tin học",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT năm 2026"
+        ]
+      },
+      {
+        "loai": "Học bổng miễn 50% học phí năm học thứ nhất",
+        "url": "https://tuyensinh.ptit.edu.vn/hoc-bong-mien-50-hoc-phi-trong-nam-hoc-thu-nhat/",
+        "nam": 2026,
+        "so_suat_toi_da": 300,
+        "gia_tri": "Miễn 50% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi học sinh giỏi",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT năm 2026"
+        ]
+      }
+    ],
+    "tong_so_suat": {
+      "dac_biet": 30,
+      "toan_phan": 50,
+      "ban_phan": 50,
+      "mien_100_percent_nam_1": 100,
+      "mien_50_percent_nam_1": 300,
+      "tong": 530
+    }
+  },
+  "tuyen_sinh_2025": {
+    "url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2025/",
+    "nam": 2025,
+    "hinh_thuc_dao_tao": [
+      "Đào tạo chính quy",
+      "Đào tạo vừa học vừa làm",
+      "Đào tạo từ xa"
+    ],
+    "phuong_thuc_xet_tuyen": [
+      {
+        "ma": "100",
+        "ten": "Xét điểm thi tốt nghiệp THPT"
+      },
+      {
+        "ma": "302",
+        "ten": "Xét điểm thi tốt nghiệp THPT (tổ hợp)"
+      },
+      {
+        "ma": "410",
+        "ten": "Xét kết quả học tập THPT (học bạ)"
+      },
+      {
+        "ma": "402",
+        "ten": "Xét điểm đánh giá năng lực (ĐGNL)"
+      }
+    ]
+  },
+  "tuyen_sinh_2026": {
+    "url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+    "nam": 2026,
+    "hinh_thuc_dao_tao": [
+      "Đào tạo chính quy",
+      "Đào tạo vừa học vừa làm",
+      "Đào tạo từ xa"
+    ]
+  },
+  "diem_trung_tuyen": {
+    "nam_2025": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-nam-2025/",
+      "co_so_bac_BVH": [
+        {
+          "stt": "1",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520207",
+          "ten_nganh": "Kỹ thuật Điện tử viễn thông",
+          "diem_chuan": 25.1,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "2",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520207_ AIoT",
+          "ten_nganh": "Trí tuệ nhân tạo vạn vật (AIoT)(ngành Kỹ thuật Điện tử viễn thông)",
+          "diem_chuan": 24.87,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "3",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520216",
+          "ten_nganh": "Kỹ thuật Điều khiển và tự động hóa",
+          "diem_chuan": 26.19,
+          "ttnv": "TTNV<=6"
+        },
+        {
+          "stt": "4",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7510301",
+          "ten_nganh": "Công nghệ Kỹ thuật Điện, điện tử",
+          "diem_chuan": 24.61,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "5",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7510301_ MBD",
+          "ten_nganh": "Công nghệ vi mạch bán dẫn(ngành Công nghệ Kỹ thuật Điện, điện tử)",
+          "diem_chuan": 25.5,
+          "ttnv": "TTNV<=16"
+        },
+        {
+          "stt": "6",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480201",
+          "ten_nganh": "Công nghệ thông tin",
+          "diem_chuan": 25.8,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "7",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480202",
+          "ten_nganh": "An toàn thông tin",
+          "diem_chuan": 25.21,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "8",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480107",
+          "ten_nganh": "Trí tuệ nhân tạo",
+          "diem_chuan": 25.67,
+          "ttnv": "TTNV<=8"
+        },
+        {
+          "stt": "9",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480101",
+          "ten_nganh": "Khoa học máy tính(định hướng Khoa học dữ liệu)",
+          "diem_chuan": 26.21,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "10",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480102",
+          "ten_nganh": "Kỹ thuật dữ liệu (ngành Mạng máy tính và truyền thông dữ liệu)",
+          "diem_chuan": 24.4,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "11",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7320101",
+          "ten_nganh": "Báo chí",
+          "diem_chuan": 22.67,
+          "ttnv": "TTNV<=9"
+        },
+        {
+          "stt": "12",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7320104",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "diem_chuan": 25.25,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "13",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7329001",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "diem_chuan": 24.0,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "14",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340101",
+          "ten_nganh": "Quản trị kinh doanh",
+          "diem_chuan": 22.75,
+          "ttnv": "TTNV<=13"
+        },
+        {
+          "stt": "15",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340101_ LOG",
+          "ten_nganh": "Logistics và quản trị chuỗi cung ứng (ngành Quản trị kinh doanh)",
+          "diem_chuan": 24.2,
+          "ttnv": "TTNV<=5"
+        },
+        {
+          "stt": "16",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340122",
+          "ten_nganh": "Thương mại điện tử",
+          "diem_chuan": 25.1,
+          "ttnv": "TTNV<=4"
+        },
+        {
+          "stt": "17",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340115",
+          "ten_nganh": "Marketing",
+          "diem_chuan": 24.0,
+          "ttnv": "TTNV<=5"
+        },
+        {
+          "stt": "18",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340115_ QHC",
+          "ten_nganh": "Quan hệ công chúng(ngành Marketing)",
+          "diem_chuan": 23.47,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "19",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340301",
+          "ten_nganh": "Kế toán",
+          "diem_chuan": 22.5,
+          "ttnv": "TTNV<=6"
+        },
+        {
+          "stt": "20",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340205",
+          "ten_nganh": "Công nghệ tài chính(Fintech)",
+          "diem_chuan": 23.63,
+          "ttnv": "TTNV=1"
+        },
+        {
+          "stt": "1",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7480201_ CLC",
+          "ten_nganh": "Công nghệ thông tin CLC",
+          "diem_chuan": 23.6,
+          "ttnv": "TTNV=1"
+        },
+        {
+          "stt": "2",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7480202_ CLC",
+          "ten_nganh": "An toàn thông tin CLC",
+          "diem_chuan": 23.14,
+          "ttnv": "TTNV=1"
+        },
+        {
+          "stt": "3",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7340301_ CLC",
+          "ten_nganh": "Kế toán CLC(chuẩn quốc tế ACCA)",
+          "diem_chuan": 21.0,
+          "ttnv": "TTNV=1"
+        },
+        {
+          "stt": "4",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7320104_ CLC",
+          "ten_nganh": "Truyền thông đa phương tiện CLC",
+          "diem_chuan": 22.65,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "5",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7340115 _CLC",
+          "ten_nganh": "Marketing CLC",
+          "diem_chuan": 22.0,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "6",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7329001_ GAM",
+          "ten_nganh": "Thiết kế và phát triển Game(ngành Công nghệ đa phương tiện)",
+          "diem_chuan": 23.48,
+          "ttnv": "TTNV=1"
+        },
+        {
+          "stt": "7",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7480201_ VNH",
+          "ten_nganh": "Công nghệ thông tin Việt – Nhật",
+          "diem_chuan": 23.48,
+          "ttnv": "TTNV<=7"
+        },
+        {
+          "stt": "8",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7480201 _UDU",
+          "ten_nganh": "Công nghệ thông tin(Cử nhân định hướng ứng dụng)",
+          "diem_chuan": 22.2,
+          "ttnv": "TTNV<=8"
+        }
+      ],
+      "co_so_nam_BVS": [
+        {
+          "stt": "1",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520207",
+          "ten_nganh": "Kỹ thuật Điện tử viễn thông",
+          "diem_chuan": 21.0,
+          "ttnv": "TTNV<=18"
+        },
+        {
+          "stt": "2",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520208",
+          "ten_nganh": "Công nghệ Internet vạn vật (IoT)",
+          "diem_chuan": 17.25,
+          "ttnv": "TTNV<=20"
+        },
+        {
+          "stt": "3",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7510301",
+          "ten_nganh": "Công nghệ Kỹ thuật Điện, điện tử",
+          "diem_chuan": 20.0,
+          "ttnv": "TTNV<=24"
+        },
+        {
+          "stt": "4",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7520216",
+          "ten_nganh": "Kỹ thuật Điều khiển và tự động hóa",
+          "diem_chuan": 19.8,
+          "ttnv": "TTNV<=2"
+        },
+        {
+          "stt": "5",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480201",
+          "ten_nganh": "Công nghệ thông tin",
+          "diem_chuan": 23.47,
+          "ttnv": "TTNV<=8"
+        },
+        {
+          "stt": "6",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7480202",
+          "ten_nganh": "An toàn thông tin",
+          "diem_chuan": 23.09,
+          "ttnv": "TTNV<=30"
+        },
+        {
+          "stt": "7",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7329001",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "diem_chuan": 21.35,
+          "ttnv": "TTNV<=5"
+        },
+        {
+          "stt": "8",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7320104",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "diem_chuan": 24.0,
+          "ttnv": "TTNV<=19"
+        },
+        {
+          "stt": "9",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340101",
+          "ten_nganh": "Quản trị kinh doanh",
+          "diem_chuan": 17.2,
+          "ttnv": "TTNV<=3"
+        },
+        {
+          "stt": "10",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340115",
+          "ten_nganh": "Marketing",
+          "diem_chuan": 21.25,
+          "ttnv": "TTNV<=27"
+        },
+        {
+          "stt": "11",
+          "nhom": "NGÀNH, CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI TRÀ",
+          "ma_nganh": "7340301",
+          "ten_nganh": "Kế toán",
+          "diem_chuan": 16.25,
+          "ttnv": "TTNV<=11"
+        },
+        {
+          "stt": "1",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7480201_CLC",
+          "ten_nganh": "Công nghệ thông tin",
+          "diem_chuan": 21.5,
+          "ttnv": "TTNV<=7"
+        },
+        {
+          "stt": "2",
+          "nhom": "CHƯƠNG TRÌNH CHẤT LƯỢNG CAO, ĐẶC THÙ",
+          "ma_nganh": "7340115_CLC",
+          "ten_nganh": "Marketing",
+          "diem_chuan": 18.75,
+          "ttnv": "TTNV<=31"
+        }
+      ]
+    },
+    "nam_2024": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/",
+      "ghi_chu": "BVH=Bắc, BVS=Nam. Phuong thuc: THPT(100), TN(302), KH(410), DGNL(402)",
+      "danh_sach": [
+        {
+          "stt": "1",
+          "ma_nganh": "7320101",
+          "ten_nganh": "Báo chí",
+          "co_so_bac": {
+            "diem_THPT": 25.29,
+            "TTNV": "TTNV=1",
+            "diem_TN": 73.17,
+            "diem_KH": 26.73,
+            "diem_DGNL": 18.5
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "2",
+          "ma_nganh": "7320104",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "co_so_bac": {
+            "diem_THPT": 25.94,
+            "TTNV": "TTNV<=6",
+            "diem_TN": 70.03,
+            "diem_KH": 28.0,
+            "diem_DGNL": 20.7
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "3",
+          "ma_nganh": "7329001",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "co_so_bac": {
+            "diem_THPT": 25.75,
+            "TTNV": "TTNV<=2",
+            "diem_TN": 72.48,
+            "diem_KH": 27.0,
+            "diem_DGNL": 20.21
+          },
+          "co_so_nam": {
+            "diem_THPT": 23.95,
+            "diem_TN": 88.13,
+            "diem_KH": 23.46,
+            "diem_DGNL": 15.05
+          }
+        },
+        {
+          "stt": "4",
+          "ma_nganh": "7329001_GAM",
+          "ten_nganh": "Thiết kế và phát triển Game (ngành Công nghệ đa phương tiện)",
+          "co_so_bac": {
+            "diem_THPT": 24.97,
+            "TTNV": "TTNV<=2",
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "5",
+          "ma_nganh": "7340101",
+          "ten_nganh": "Quản trị kinh doanh",
+          "co_so_bac": {
+            "diem_THPT": 25.17,
+            "TTNV": "TTNV<=13",
+            "diem_TN": 72.52,
+            "diem_KH": 25.37,
+            "diem_DGNL": 18.3
+          },
+          "co_so_nam": {
+            "diem_THPT": 18.4,
+            "diem_TN": 76.41,
+            "diem_KH": null,
+            "diem_DGNL": 19.9
+          }
+        },
+        {
+          "stt": "6",
+          "ma_nganh": "7340115",
+          "ten_nganh": "Marketing",
+          "co_so_bac": {
+            "diem_THPT": 25.85,
+            "TTNV": "TTNV<=3",
+            "diem_TN": 72.03,
+            "diem_KH": 26.97,
+            "diem_DGNL": 19.85
+          },
+          "co_so_nam": {
+            "diem_THPT": 24.24,
+            "diem_TN": 76.72,
+            "diem_KH": 23.87,
+            "diem_DGNL": 15.93
+          }
+        },
+        {
+          "stt": "7",
+          "ma_nganh": "7340115 _CLC",
+          "ten_nganh": "Marketing (chất lượng cao)",
+          "co_so_bac": {
+            "diem_THPT": 24.25,
+            "TTNV": "TTNV=1",
+            "diem_TN": 75.63,
+            "diem_KH": 25.51,
+            "diem_DGNL": 17.45
+          },
+          "co_so_nam": {
+            "diem_THPT": 18.0,
+            "diem_TN": 78.48,
+            "diem_KH": 21.53,
+            "diem_DGNL": 15.28
+          }
+        },
+        {
+          "stt": "8",
+          "ma_nganh": "7340115_QHC",
+          "ten_nganh": "Quan hệ công chúng (ngành Marketing)",
+          "co_so_bac": {
+            "diem_THPT": 25.15,
+            "TTNV": "TTNV<=4",
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "9",
+          "ma_nganh": "7340122",
+          "ten_nganh": "Thương mại điện tử",
+          "co_so_bac": {
+            "diem_THPT": 26.09,
+            "TTNV": "TTNV<=2",
+            "diem_TN": 75.55,
+            "diem_KH": 27.26,
+            "diem_DGNL": 20.7
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "10",
+          "ma_nganh": "7340205",
+          "ten_nganh": "Công nghệ tài chính (Fintech)",
+          "co_so_bac": {
+            "diem_THPT": 25.61,
+            "TTNV": "TTNV<=10",
+            "diem_TN": 70.63,
+            "diem_KH": 26.7,
+            "diem_DGNL": 19.45
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "11",
+          "ma_nganh": "7340301",
+          "ten_nganh": "Kế toán",
+          "co_so_bac": {
+            "diem_THPT": 25.29,
+            "TTNV": "TTNV<=16",
+            "diem_TN": 73.07,
+            "diem_KH": 25.77,
+            "diem_DGNL": 18.5
+          },
+          "co_so_nam": {
+            "diem_THPT": 20.95,
+            "diem_TN": null,
+            "diem_KH": 22.8,
+            "diem_DGNL": 15.88
+          }
+        },
+        {
+          "stt": "12",
+          "ma_nganh": "7340301 _CLC",
+          "ten_nganh": "Kế toán (chuẩn quốc tế ACCA)",
+          "co_so_bac": {
+            "diem_THPT": 22.5,
+            "TTNV": "TTNV=1",
+            "diem_TN": 76.42,
+            "diem_KH": 23.36,
+            "diem_DGNL": 15.0
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "13",
+          "ma_nganh": "7480101",
+          "ten_nganh": "Khoa học máy tính (định hướng Khoa học dữ liệu)",
+          "co_so_bac": {
+            "diem_THPT": 26.31,
+            "TTNV": "TTNV=1",
+            "diem_TN": 84.34,
+            "diem_KH": 28.0,
+            "diem_DGNL": 23.5
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "14",
+          "ma_nganh": "7480102",
+          "ten_nganh": "Kỹ thuật dữ liệu (ngành Mạng máy tính và truyền thông dữ liệu)",
+          "co_so_bac": {
+            "diem_THPT": 25.59,
+            "TTNV": "TTNV<=11",
+            "diem_TN": 73.57,
+            "diem_KH": 23.74,
+            "diem_DGNL": 19.45
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "15",
+          "ma_nganh": "7480201",
+          "ten_nganh": "Công nghệ thông tin",
+          "co_so_bac": {
+            "diem_THPT": 26.4,
+            "TTNV": "TTNV<=5",
+            "diem_TN": 82.85,
+            "diem_KH": 27.01,
+            "diem_DGNL": 22.55
+          },
+          "co_so_nam": {
+            "diem_THPT": 25.17,
+            "diem_TN": 68.83,
+            "diem_KH": 22.2,
+            "diem_DGNL": 18.01
+          }
+        },
+        {
+          "stt": "16",
+          "ma_nganh": "7480201 _CLC",
+          "ten_nganh": "Công nghệ thông tin (chất lượng cao)",
+          "co_so_bac": {
+            "diem_THPT": 25.43,
+            "TTNV": "TTNV=1",
+            "diem_TN": 72.6,
+            "diem_KH": 25.64,
+            "diem_DGNL": 19.4
+          },
+          "co_so_nam": {
+            "diem_THPT": 23.25,
+            "diem_TN": 75.69,
+            "diem_KH": 23.36,
+            "diem_DGNL": 15.03
+          }
+        },
+        {
+          "stt": "17",
+          "ma_nganh": "7480201_UDU",
+          "ten_nganh": "Cử nhân Công nghệ thông tin (định hướng ứng dụng)",
+          "co_so_bac": {
+            "diem_THPT": 24.87,
+            "TTNV": "TTNV<=4",
+            "diem_TN": 73.11,
+            "diem_KH": 25.5,
+            "diem_DGNL": 17.1
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "18",
+          "ma_nganh": "7480201_VNH",
+          "ten_nganh": "Công nghệ thông tin Việt – Nhật",
+          "co_so_bac": {
+            "diem_THPT": 24.25,
+            "TTNV": "TTNV=1",
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          },
+          "co_so_nam": {
+            "diem_THPT": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          }
+        },
+        {
+          "stt": "19",
+          "ma_nganh": "7480202",
+          "ten_nganh": "An toàn thông tin",
+          "co_so_bac": {
+            "diem_THPT": 25.85,
+            "TTNV": "TTNV<=2",
+            "diem_TN": 81.43,
+            "diem_KH": 26.8,
+            "diem_DGNL": 21.6
+          },
+          "co_so_nam": {
+            "diem_THPT": 24.68,
+            "diem_TN": 71.95,
+            "diem_KH": 21.89,
+            "diem_DGNL": 15.8
+          }
+        },
+        {
+          "stt": "20",
+          "ma_nganh": "7510301",
+          "ten_nganh": "Công nghệ kỹ thuật Điện, điện tử",
+          "co_so_bac": {
+            "diem_THPT": 25.46,
+            "TTNV": "TTNV<=2",
+            "diem_TN": 67.8,
+            "diem_KH": 25.07,
+            "diem_DGNL": 19.84
+          },
+          "co_so_nam": {
+            "diem_THPT": 20.85,
+            "diem_TN": null,
+            "diem_KH": 24.36,
+            "diem_DGNL": 15.08
+          }
+        },
+        {
+          "stt": "21",
+          "ma_nganh": "7520207",
+          "ten_nganh": "Kỹ thuật điện tử viễn thông",
+          "co_so_bac": {
+            "diem_THPT": 25.75,
+            "TTNV": null,
+            "diem_TN": 75.43,
+            "diem_KH": 26.42,
+            "diem_DGNL": 20.65
+          },
+          "co_so_nam": {
+            "diem_THPT": 23.23,
+            "diem_TN": 85.69,
+            "diem_KH": 23.77,
+            "diem_DGNL": 16.23
+          }
+        },
+        {
+          "stt": "22",
+          "ma_nganh": "7520216",
+          "ten_nganh": "Kỹ thuật Điều khiển và Tự động hóa",
+          "co_so_bac": {
+            "diem_THPT": 26.08,
+            "TTNV": "TTNV<=3",
+            "diem_TN": 82.35,
+            "diem_KH": 27.71,
+            "diem_DGNL": 22.05
+          },
+          "co_so_nam": {
+            "diem_THPT": 19.65,
+            "diem_TN": 78.71,
+            "diem_KH": 23.7,
+            "diem_DGNL": 16.18
+          }
+        },
+        {
+          "stt": "22",
+          "ma_nganh": "7520208",
+          "ten_nganh": "Công nghệ Internet vạn vật (IoT)",
+          "co_so_bac": {
+            "diem_THPT": null,
+            "TTNV": null,
+            "diem_TN": null,
+            "diem_KH": null,
+            "diem_DGNL": null
+          },
+          "co_so_nam": {
+            "diem_THPT": 18.0,
+            "diem_TN": 83.97,
+            "diem_KH": 24.83,
+            "diem_DGNL": 18.33
+          }
+        }
+      ]
+    },
+    "nam_2023": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/",
+      "danh_sach": [
+        {
+          "stt": "1",
+          "ten_nganh": "Kỹ thuật điện tử viễn thông",
+          "ma_nganh": "7520207",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "22.36",
+          "diem_XTKH": 16.0,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "2",
+          "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+          "ma_nganh": "7510301",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "21.2",
+          "diem_XTKH": 16.45,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "3",
+          "ten_nganh": "Kỹ thuật Điều khiển và Tự động hóa",
+          "ma_nganh": "7520216",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "4",
+          "ten_nganh": "Mạng máy tính và truyền thông dữ liệu",
+          "ma_nganh": "7480102",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "5",
+          "ten_nganh": "Công nghệ thông tin",
+          "ma_nganh": "7480201",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "28.03",
+          "diem_XTKH": 20.05,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "6",
+          "ten_nganh": "Công nghệ thông tin (ứng dụng)",
+          "ma_nganh": "7480201_UDU",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "7",
+          "ten_nganh": "Công nghệ thông tin (chất lượng cao)",
+          "ma_nganh": "7480201_CLC",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "8",
+          "ten_nganh": "An toàn thông tin",
+          "ma_nganh": "7480202",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "27.43",
+          "diem_XTKH": 18.85,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "9",
+          "ten_nganh": "Khoa học máy tính",
+          "ma_nganh": "7480101",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "28.1",
+          "diem_XTKH": 20.65,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "10",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "ma_nganh": "7329001",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.77",
+          "diem_XTKH": 16.0,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "11",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "ma_nganh": "7320104",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.74",
+          "diem_XTKH": 17.65,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "12",
+          "ten_nganh": "Báo chí",
+          "ma_nganh": "7320101",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "25.24",
+          "diem_XTKH": 16.4,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "13",
+          "ten_nganh": "Quản trị kinh doanh",
+          "ma_nganh": "7340101",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "20.87",
+          "diem_XTKH": 16.0,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "14",
+          "ten_nganh": "Thương mại điện tử",
+          "ma_nganh": "7340122",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.76",
+          "diem_XTKH": 18.9,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "15",
+          "ten_nganh": "Marketing",
+          "ma_nganh": "7340115",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "25.69",
+          "diem_XTKH": 16.0,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "16",
+          "ten_nganh": "Kế toán",
+          "ma_nganh": "7340301",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "21.86",
+          "diem_XTKH": 16.0,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "17",
+          "ten_nganh": "Công nghệ tài chính",
+          "ma_nganh": "7340205",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.47",
+          "diem_XTKH": 16.25,
+          "diem_DGNL": null
+        }
+      ]
+    },
+    "nam_2022": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/",
+      "danh_sach": [
+        {
+          "stt": "1",
+          "ten_nganh": "Kỹ thuật điện tử viễn thông",
+          "ma_nganh": "7520207",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "22.60",
+          "diem_XTKH": 19.45,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "2",
+          "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+          "ma_nganh": "7510301",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "22.50",
+          "diem_XTKH": 19.3,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "3",
+          "ten_nganh": "Kỹ thuật Điều khiển và Tự động hóa",
+          "ma_nganh": "7520216",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "4",
+          "ten_nganh": "Mạng máy tính và truyền thông dữ liệu",
+          "ma_nganh": "7480102",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "5",
+          "ten_nganh": "Công nghệ thông tin",
+          "ma_nganh": "7480201",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "27.97",
+          "diem_XTKH": 21.5,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "6",
+          "ten_nganh": "Công nghệ thông tin (ứng dụng)",
+          "ma_nganh": "7480201_UDU",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "7",
+          "ten_nganh": "Công nghệ thông tin (chất lượng cao)",
+          "ma_nganh": "7480201_CLC",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "8",
+          "ten_nganh": "An toàn thông tin",
+          "ma_nganh": "7480202",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "27.06",
+          "diem_XTKH": 20.65,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "9",
+          "ten_nganh": "Khoa học máy tính",
+          "ma_nganh": "7480101",
+          "to_hop": "A00, A01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "10",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "ma_nganh": "7329001",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.45",
+          "diem_XTKH": 20.2,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "11",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "ma_nganh": "7320104",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.92",
+          "diem_XTKH": 20.45,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "12",
+          "ten_nganh": "Báo chí",
+          "ma_nganh": "7320101",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "X",
+          "diem_XTKH": null,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "13",
+          "ten_nganh": "Quản trị kinh doanh",
+          "ma_nganh": "7340101",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "23.03",
+          "diem_XTKH": 18.05,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "14",
+          "ten_nganh": "Thương mại điện tử",
+          "ma_nganh": "7340122",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "26.82",
+          "diem_XTKH": 20.7,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "15",
+          "ten_nganh": "Marketing",
+          "ma_nganh": "7340115",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "25.50",
+          "diem_XTKH": 19.7,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "16",
+          "ten_nganh": "Kế toán",
+          "ma_nganh": "7340301",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "23.04",
+          "diem_XTKH": 18.15,
+          "diem_DGNL": null
+        },
+        {
+          "stt": "17",
+          "ten_nganh": "Công nghệ tài chính",
+          "ma_nganh": "7340205",
+          "to_hop": "A00, A01, D01",
+          "diem_THPT": null,
+          "TTNV": "24.27",
+          "diem_XTKH": 19.65,
+          "diem_DGNL": null
+        }
+      ]
+    }
+  },
+  "huong_dan_dang_ky": {
+    "url": "https://tuyensinh.ptit.edu.vn/huong-dan-dkxt/",
+    "cong_dang_ky": "https://xettuyen.ptit.edu.vn/",
+    "cong_tra_cuu": "https://tracuu.ptit.edu.vn/"
+  },
+  "cau_hoi_thuong_gap": [
+    {
+      "cau_hoi": "PTIT có những cơ sở đào tạo ở đâu?",
+      "tra_loi": "PTIT có 4 cơ sở: (1) Trụ sở chính: 122 Hoàng Quốc Việt, Hà Nội (mã BVH); (2) Cơ sở Hà Đông: 96A Trần Phú, Hà Đông, Hà Nội; (3) Học viện cơ sở tại TP.HCM: 11 Nguyễn Đình Chiểu (mã BVS); (4) Cơ sở TP.HCM: 97 Man Thiện, Tăng Nhơn Phú, TP.HCM."
+    },
+    {
+      "cau_hoi": "Liên hệ tư vấn tuyển sinh PTIT như thế nào?",
+      "tra_loi": "Điện thoại: (024) 33528122. Email: tuyensinh@ptit.edu.vn. Facebook: https://www.facebook.com/ptittuyensinh/"
+    },
+    {
+      "cau_hoi": "PTIT có những loại học bổng nào?",
+      "tra_loi": "PTIT có học bổng đặc biệt (tối đa 500 triệu/30 suất), học bổng toàn phần (250 triệu/50 suất), học bổng bán phần (100 triệu/50 suất), miễn 100% HP năm 1 (100 suất), miễn 50% HP năm 1 (300 suất), và học bổng doanh nghiệp từ Samsung, Yokogawa, Bosch..."
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2024 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2024 dao động từ khoảng 25 đến 27 điểm (thang 30) tùy ngành. Ví dụ: Báo chí 25.29, Truyền thông đa phương tiện 25.94, Công nghệ đa phương tiện 25.75. Xem chi tiết tại: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/"
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2023 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2023: Kỹ thuật điện tử viễn thông 25.68, Công nghệ kỹ thuật điện điện tử 25.01. Xem chi tiết tại: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/"
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2022 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2022: Kỹ thuật điện tử viễn thông 25.60, Công nghệ kỹ thuật điện điện tử 25.1. Xem chi tiết: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/"
+    },
+    {
+      "cau_hoi": "PTIT xét tuyển bằng những phương thức nào?",
+      "tra_loi": "PTIT xét tuyển qua: (1) Điểm thi tốt nghiệp THPT; (2) Kết quả học tập THPT (học bạ); (3) Điểm đánh giá năng lực (ĐGNL). Có 2 cơ sở: BVH (Hà Nội) và BVS (TP.HCM)."
+    },
+    {
+      "cau_hoi": "Nộp hồ sơ xét tuyển PTIT ở đâu?",
+      "tra_loi": "Nộp hồ sơ trực tuyến tại: https://xettuyen.ptit.edu.vn/ hoặc tra cứu thông tin tại https://tracuu.ptit.edu.vn/"
+    },
+    {
+      "cau_hoi": "PTIT thành lập năm nào?",
+      "tra_loi": "Học viện Công nghệ Bưu chính Viễn thông (PTIT) được thành lập theo quyết định số 516/TTg của Thủ tướng Chính phủ ngày 11 tháng 7 năm 1997. Từ 1/7/2014, học viện chuyển về trực thuộc Bộ Thông tin và Truyền thông."
+    },
+    {
+      "cau_hoi": "Các hình thức đào tạo tại PTIT?",
+      "tra_loi": "PTIT đào tạo 3 hình thức: (1) Đào tạo chính quy; (2) Đào tạo vừa học vừa làm; (3) Đào tạo từ xa."
+    },
+    {
+      "cau_hoi": "Học bổng đặc biệt PTIT năm 2026 có giá trị bao nhiêu và điều kiện là gì?",
+      "tra_loi": "Học bổng đặc biệt 2026 có tối đa 30 suất, giá trị tới 500 triệu đồng/suất (gồm học phí toàn khóa, chi phí ăn ở, kinh phí NCKH, thực tập nước ngoài, hỗ trợ từ doanh nghiệp). Đối tượng: thi viên tham dự kỳ thi chọn đội tuyển Olympic quốc tế; đoạt giải Nhất/Nhì/Ba HSG quốc gia môn Toán/Vật lí/Tin học; hoặc điểm thi THPT từ 29,0 điểm trở lên (không tính điểm cộng/ưu tiên). Duy trì: ĐTBCTL đạt loại Giỏi liên tục."
+    },
+    {
+      "cau_hoi": "Học bổng toàn phần PTIT 2026 là gì?",
+      "tra_loi": "Học bổng toàn phần 2026: tối đa 50 suất, giá trị tới 250 triệu đồng (tương đương học phí toàn khóa CLC). Đối tượng: đoạt giải Khuyến khích HSG quốc gia Toán/Vật lí/Tin học; đoạt giải Nhất HSG cấp Tỉnh/TP môn Toán/Vật lí/Tin học; điểm THPT từ 28,5 điểm trở lên (không tính điểm cộng). Nguồn: https://tuyensinh.ptit.edu.vn/hoc-bong-toan-phan/"
+    },
+    {
+      "cau_hoi": "Học bổng bán phần PTIT 2026 như thế nào?",
+      "tra_loi": "Học bổng bán phần 2026: tối đa 50 suất, giá trị tới 100 triệu đồng (tối đa 100% học phí 2 năm đầu CLC). Đối tượng: đoạt giải Khuyến khích HSG quốc gia Toán/Vật lí/Tin học; đoạt giải Nhất/Nhì HSG cấp Tỉnh/TP môn Toán/Vật lí/Tin học; điểm THPT từ 28,0 điểm trở lên (không tính điểm cộng). Nguồn: https://tuyensinh.ptit.edu.vn/hoc-bong-ban-phan/"
+    },
+    {
+      "cau_hoi": "PTIT có học bổng miễn 100% học phí năm đầu không?",
+      "tra_loi": "Có. PTIT cấp tối đa 100 suất miễn 100% học phí năm học thứ nhất cho: thí sinh đoạt giải HSG quốc tế, quốc gia; thí sinh đoạt giải Nhất/Nhì/Ba HSG cấp Tỉnh/TP môn Toán/Vật lí/Hóa/Tin học; thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT 2026. Nguồn: https://tuyensinh.ptit.edu.vn/hoc-bong-cho-thi-sinh-dat-thanh-tich-cao/"
+    },
+    {
+      "cau_hoi": "PTIT có học bổng miễn 50% học phí năm đầu không?",
+      "tra_loi": "Có. PTIT cấp tối đa 300 suất miễn 50% học phí năm học thứ nhất cho thí sinh đoạt giải kỳ thi HSG hoặc đạt kết quả cao kỳ thi tốt nghiệp THPT năm 2026. Nguồn: https://tuyensinh.ptit.edu.vn/hoc-bong-mien-50-hoc-phi-trong-nam-hoc-thu-nhat/"
+    },
+    {
+      "cau_hoi": "Tổng số suất học bổng PTIT 2026 là bao nhiêu?",
+      "tra_loi": "Tổng số suất học bổng PTIT 2026: Đặc biệt 30 suất (500tr) + Toàn phần 50 suất (250tr) + Bán phần 50 suất (100tr) + Miễn 100% HP năm 1: 100 suất + Miễn 50% HP năm 1: 300 suất = tổng 530 suất. Lưu ý: mỗi thí sinh chỉ được nhận 1 loại học bổng."
+    }
+  ],
+  "metadata": {
+    "ngay_crawl": "2026-05-06",
+    "nguon": [
+      "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2025/",
+      "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/tong-quan-hoc-vien/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/chinh-sach-hoc-bong/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-nam-2025/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/",
+      "https://tuyensinh.ptit.edu.vn/brochure-ptit-2025-2/",
+      "https://tuyensinh.ptit.edu.vn/huong-dan-dkxt/",
+      "https://tuyensinh.ptit.edu.vn/hoc-bong-mien-50-hoc-phi-trong-nam-hoc-thu-nhat/",
+      "https://tuyensinh.ptit.edu.vn/hoc-bong-dac-biet/",
+      "https://tuyensinh.ptit.edu.vn/hoc-bong-ban-phan/",
+      "https://tuyensinh.ptit.edu.vn/hoc-bong-cho-thi-sinh-dat-thanh-tich-cao/"
+    ],
+    "ghi_chu": "Dữ liệu điểm chuẩn chi tiết theo từng ngành cần crawl thêm bằng BeautifulSoup/Selenium do nội dung bảng được render bởi JavaScript",
+    "ngay_cap_nhat": "2026-05-06"
+  }
+}

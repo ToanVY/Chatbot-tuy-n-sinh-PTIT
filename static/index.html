@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Tuyển sinh PTIT 2026</title>
+  <meta name="description" content="Chatbot tư vấn tuyển sinh Học viện Công nghệ Bưu chính Viễn thông năm 2026" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
+  <style>
+    /* ─── Reset & Variables ─── */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0d0d15;
+      --bg2: #111120;
+      --bg3: #191928;
+      --bg4: #1e1e32;
+      --red: #cc0000;
+      --red-h: #e60000;
+      --red-dim: rgba(204, 0, 0, .14);
+      --red-border: rgba(204, 0, 0, .28);
+      --txt: #e6e6f0;
+      --txt2: #9090b8;
+      --txt3: #5a5a80;
+      --border: rgba(255, 255, 255, .07);
+      --border2: rgba(255, 255, 255, .12);
+      --sidebar: 272px;
+      --ease: all .2s ease;
+    }
+
+    html,
+    body {
+      height: 100%;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--txt);
+      overflow: hidden;
+    }
+
+    /* ─── App Layout ─── */
+    .app {
+      display: flex;
+      height: 100vh;
+    }
+
+    /* ─── Sidebar ─── */
+    .sidebar {
+      width: var(--sidebar);
+      flex-shrink: 0;
+      background: var(--bg2);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .sidebar-top {
+      padding: 22px 18px 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin-bottom: 12px;
+    }
+
+    .brand img {
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      background: #fff;
+      padding: 3px;
+      object-fit: contain;
+    }
+
+    .brand-name {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    .brand-sub {
+      font-size: 11px;
+      color: var(--red);
+      font-weight: 500;
+      margin-top: 1px;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(68, 255, 136, .1);
+      border: 1px solid rgba(68, 255, 136, .25);
+      border-radius: 20px;
+      padding: 4px 10px;
+      font-size: 11px;
+      color: #66ffaa;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #44ff88;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1
+      }
+
+      50% {
+        opacity: .3
+      }
+    }
+
+    .sidebar-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border2) transparent;
+    }
+
+    .sidebar-body::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    .sidebar-body::-webkit-scrollbar-thumb {
+      background: var(--border2);
+      border-radius: 2px;
+    }
+
+    .sec-label {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.3px;
+      color: var(--txt3);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .examples {
+      margin-bottom: 22px;
+    }
+
+    .ex-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 13px;
+      font-size: 12.5px;
+      color: var(--txt2);
+      cursor: pointer;
+      margin-bottom: 7px;
+      transition: var(--ease);
+      line-height: 1.45;
+      font-family: inherit;
+    }
+
+    .ex-btn:hover {
+      background: var(--red-dim);
+      border-color: var(--red-border);
+      color: var(--txt);
+      transform: translateX(3px);
+    }
+
+    .info-card {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+    .info-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .info-icon {
+      font-size: 15px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .info-text {
+      color: var(--txt2);
+      line-height: 1.5;
+    }
+
+    .info-text strong {
+      color: var(--txt);
+      display: block;
+    }
+
+    .sidebar-footer {
+      padding: 14px 18px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--txt3);
+      text-align: center;
+    }
+
+    .new-chat-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      width: 100%;
+      padding: 9px;
+      margin-bottom: 14px;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--ease);
+      font-family: inherit;
+    }
+
+    .new-chat-btn:hover {
+      background: var(--red-h);
+    }
+
+    /* ─── Main Chat Area ─── */
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .chat-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .chat-title {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .chat-subtitle {
+      font-size: 12px;
+      color: var(--txt2);
+      margin-top: 2px;
+    }
+
+    .header-badge {
+      background: var(--red-dim);
+      border: 1px solid var(--red-border);
+      border-radius: 20px;
+      padding: 5px 13px;
+      font-size: 12px;
+      color: #ff8080;
+      font-weight: 500;
+    }
+
+    /* ─── Messages ─── */
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border2) transparent;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .messages::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .messages::-webkit-scrollbar-thumb {
+      background: var(--border2);
+      border-radius: 2px;
+    }
+
+    /* Welcome Screen */
+    .welcome {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+    }
+
+    .welcome-logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      background: #fff;
+      padding: 6px;
+      object-fit: contain;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 32px rgba(204, 0, 0, .25);
+    }
+
+    .welcome h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .welcome p {
+      font-size: 14px;
+      color: var(--txt2);
+      max-width: 420px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .welcome-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      max-width: 560px;
+    }
+
+    .wchip {
+      background: var(--bg3);
+      border: 1px solid var(--border2);
+      border-radius: 20px;
+      padding: 8px 16px;
+      font-size: 12.5px;
+      color: var(--txt2);
+      cursor: pointer;
+      transition: var(--ease);
+      font-family: inherit;
+    }
+
+    .wchip:hover {
+      background: var(--red-dim);
+      border-color: var(--red-border);
+      color: var(--txt);
+    }
+
+    /* Message Rows */
+    .msg-row {
+      display: flex;
+      gap: 12px;
+      padding: 6px 24px;
+      animation: fadeUp .3s ease;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .msg-row.user {
+      flex-direction: row-reverse;
+    }
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .avatar.bot {
+      background: var(--bg4);
+      border: 1px solid var(--border2);
+      overflow: hidden;
+      padding: 3px;
+    }
+
+    .avatar.bot img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+
+
+    .bubble {
+      max-width: 68%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      font-size: 14px;
+      line-height: 1.65;
+      position: relative;
+    }
+
+    .bubble.bot {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-bottom-left-radius: 4px;
+      color: var(--txt);
+    }
+
+    .bubble.user {
+      background: linear-gradient(135deg, #aa0000, #cc0000);
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+
+    /* Markdown inside bot bubble */
+    .bubble.bot strong {
+      color: #f0a0a0;
+    }
+
+    .bubble.bot ul,
+    .bubble.bot ol {
+      padding-left: 18px;
+      margin: 8px 0;
+    }
+
+    .bubble.bot li {
+      margin-bottom: 4px;
+    }
+
+    .bubble.bot p {
+      margin-bottom: 8px;
+    }
+
+    .bubble.bot p:last-child {
+      margin-bottom: 0;
+    }
+
+    .bubble.bot code {
+      background: rgba(255, 255, 255, .08);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 13px;
+      font-family: 'Consolas', monospace;
+    }
+
+    /* Copy btn */
+    .copy-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: var(--bg4);
+      border: 1px solid var(--border2);
+      border-radius: 6px;
+      padding: 3px 7px;
+      font-size: 11px;
+      color: var(--txt2);
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+
+    .bubble.bot:hover .copy-btn {
+      opacity: 1;
+    }
+
+    .copy-btn:hover {
+      color: var(--txt);
+      background: var(--border2);
+    }
+
+    /* Timestamp */
+    .msg-time {
+      font-size: 10px;
+      color: var(--txt3);
+      margin-top: 4px;
+      text-align: center;
+      align-self: flex-end;
+    }
+
+    /* Typing Indicator */
+    .typing-row {
+      display: flex;
+      gap: 12px;
+      padding: 6px 24px;
+    }
+
+    .typing-bubble {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      border-bottom-left-radius: 4px;
+      padding: 14px 18px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .typing-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--txt2);
+      animation: bounce .9s infinite;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: .15s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: .3s;
+    }
+
+    @keyframes bounce {
+
+      0%,
+      80%,
+      100% {
+        transform: translateY(0)
+      }
+
+      40% {
+        transform: translateY(-6px)
+      }
+    }
+
+    /* ─── Input Area ─── */
+    .input-area {
+      padding: 16px 24px 20px;
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .input-wrap {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      background: var(--bg4);
+      border: 1px solid var(--border2);
+      border-radius: 14px;
+      padding: 10px 14px;
+      transition: border-color .2s;
+    }
+
+    .input-wrap:focus-within {
+      border-color: var(--red-border);
+      box-shadow: 0 0 0 3px var(--red-dim);
+    }
+
+    #user-input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      font-family: inherit;
+      font-size: 14px;
+      color: var(--txt);
+      resize: none;
+      max-height: 140px;
+      line-height: 1.5;
+      scrollbar-width: none;
+    }
+
+    #user-input::placeholder {
+      color: var(--txt3);
+    }
+
+    #user-input::-webkit-scrollbar {
+      display: none;
+    }
+
+    #send-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: var(--red);
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--ease);
+      flex-shrink: 0;
+    }
+
+    #send-btn:hover:not(:disabled) {
+      background: var(--red-h);
+      transform: scale(1.05);
+    }
+
+    #send-btn:disabled {
+      background: var(--bg3);
+      cursor: not-allowed;
+    }
+
+    #send-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: #fff;
+    }
+
+    #send-btn:disabled svg {
+      fill: var(--txt3);
+    }
+
+    .input-hint {
+      font-size: 11px;
+      color: var(--txt3);
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 680px) {
+      .sidebar {
+        display: none;
+      }
+
+      .bubble {
+        max-width: 85%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="brand">
+          <img src="/static/logo.png" alt="PTIT Logo" />
+          <div>
+            <div class="brand-name">PTIT</div>
+            <div class="brand-sub">Tuyển sinh 2026</div>
+          </div>
+        </div>
+        <div class="status-pill"><span class="dot"></span>Đang hoạt động</div>
+      </div>
+
+      <div class="sidebar-body">
+        <button class="new-chat-btn" onclick="clearChat()">＋ Cuộc hội thoại mới</button>
+
+        <span class="sec-label">Câu hỏi thường gặp</span>
+        <div class="examples">
+          <button class="ex-btn" onclick="sendExample(this)">Học viện có những phương thức xét tuyển nào năm
+            2026?</button>
+          <button class="ex-btn" onclick="sendExample(this)">Học phí dự kiến ngành Công nghệ thông tin là bao
+            nhiêu?</button>
+          <button class="ex-btn" onclick="sendExample(this)">Chỉ tiêu tuyển sinh ngành Trí tuệ nhân tạo?</button>
+          <button class="ex-btn" onclick="sendExample(this)">Điểm chuẩn năm 2025 của PTIT là bao nhiêu?</button>
+          <button class="ex-btn" onclick="sendExample(this)">Cơ sở đào tạo của học viện ở đâu?</button>
+        </div>
+
+        <span class="sec-label">Thông tin liên hệ</span>
+        <div class="info-card">
+          <div class="info-row">
+            <span class="info-icon">📞</span>
+            <div class="info-text"><strong>Hotline</strong>1900 636 607</div>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">🌐</span>
+            <div class="info-text"><strong>Website</strong>tuyensinh.ptit.edu.vn</div>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">📍</span>
+            <div class="info-text"><strong>Địa chỉ</strong>Km10 đường Nguyễn Trãi, Hà Nội</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        🤖 Powered by RAG + LLM · PTIT 2026
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="chat-header">
+        <div>
+          <div class="chat-title">🎓 Tư vấn Tuyển sinh PTIT</div>
+          <div class="chat-subtitle">Học viện Công nghệ Bưu chính Viễn thông</div>
+        </div>
+        <div class="header-badge">AI Tư vấn</div>
+      </div>
+
+      <div class="messages" id="messages">
+        <!-- Welcome -->
+        <div class="welcome" id="welcome-screen">
+          <img class="welcome-logo" src="/static/logo.png" alt="PTIT" />
+          <h2>Xin chào! Em là trợ lý tư vấn tuyển sinh PTIT 👋</h2>
+          <p>Em sẵn sàng giải đáp mọi thắc mắc về tuyển sinh, học phí, ngành học và điểm chuẩn năm 2026 của Học viện
+            Công nghệ Bưu chính Viễn thông.</p>
+          <div class="welcome-chips">
+            <button class="wchip" onclick="sendExample(this)">Các phương thức xét tuyển?</button>
+            <button class="wchip" onclick="sendExample(this)">Học phí ngành CNTT?</button>
+            <button class="wchip" onclick="sendExample(this)">Điểm chuẩn năm 2025?</button>
+            <button class="wchip" onclick="sendExample(this)">Chỉ tiêu ngành AI?</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <div class="input-wrap">
+          <textarea id="user-input" rows="1" placeholder="Nhập câu hỏi về tuyển sinh PTIT 2026..."
+            onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
+          <button id="send-btn" onclick="sendMessage()" title="Gửi (Enter)">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="input-hint">Nhấn <kbd
+            style="background:var(--bg4);border:1px solid var(--border2);border-radius:4px;padding:1px 5px;font-size:10px">Enter</kbd>
+          để gửi · <kbd
+            style="background:var(--bg4);border:1px solid var(--border2);border-radius:4px;padding:1px 5px;font-size:10px">Shift+Enter</kbd>
+          xuống dòng</div>
+      </div>
+    </main>
+
+  </div>
+
+  <script>
+    // ─── State ───────────────────────────────────────────────────────────────
+    let history = [];   // [{role, content}, ...]
+    let isStreaming = false;
+
+    // ─── Configure Marked ────────────────────────────────────────────────────
+    marked.setOptions({ breaks: true, gfm: true });
+
+    // ─── Helpers ─────────────────────────────────────────────────────────────
+    function $(id) { return document.getElementById(id); }
+
+    function autoResize(el) {
+      el.style.height = 'auto';
+      el.style.height = Math.min(el.scrollHeight, 140) + 'px';
+    }
+
+    function handleKey(e) {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+    }
+
+    function scrollBottom() {
+      const c = $('messages');
+      c.scrollTo({ top: c.scrollHeight, behavior: 'smooth' });
+    }
+
+    function timeNow() {
+      return new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+    }
+
+    function hideWelcome() {
+      const w = $('welcome-screen');
+      if (w) w.remove();
+    }
+
+    // ─── Render ──────────────────────────────────────────────────────────────
+    function addUserBubble(text) {
+      hideWelcome();
+      const row = document.createElement('div');
+      row.className = 'msg-row user';
+      row.innerHTML = `
+      <div class="msg-time">${timeNow()}</div>
+      <div class="bubble user">${escapeHtml(text)}</div>`;
+      $('messages').appendChild(row);
+      scrollBottom();
+    }
+
+    function addBotBubble() {
+      const row = document.createElement('div');
+      row.className = 'msg-row';
+      row.innerHTML = `
+      <div class="avatar bot"><img src="/static/logo.png" alt="PTIT"/></div>
+      <div class="bubble bot" id="bot-bubble-active">
+        <button class="copy-btn" onclick="copyBubble(this)">Sao chép</button>
+        <span class="bubble-content"></span>
+      </div>
+      <div class="msg-time">${timeNow()}</div>`;
+      $('messages').appendChild(row);
+      scrollBottom();
+      return row.querySelector('.bubble-content');
+    }
+
+    function showTyping() {
+      const t = document.createElement('div');
+      t.className = 'typing-row'; t.id = 'typing';
+      t.innerHTML = `
+      <div class="avatar bot"><img src="/static/logo.png" alt="PTIT"/></div>
+      <div class="typing-bubble">
+        <div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>
+      </div>`;
+      $('messages').appendChild(t);
+      scrollBottom();
+    }
+
+    function hideTyping() {
+      const t = $('typing');
+      if (t) t.remove();
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function copyBubble(btn) {
+      const content = btn.closest('.bubble').querySelector('.bubble-content').innerText;
+      navigator.clipboard.writeText(content).then(() => {
+        btn.textContent = '✓ Đã sao chép'; setTimeout(() => btn.textContent = 'Sao chép', 2000);
+      });
+    }
+
+    // ─── Clear Chat ──────────────────────────────────────────────────────────
+    function clearChat() {
+      history = [];
+      const msgs = $('messages');
+      msgs.innerHTML = `
+      <div class="welcome" id="welcome-screen">
+        <img class="welcome-logo" src="/static/logo.png" alt="PTIT"/>
+        <h2>Xin chào! Em là trợ lý tư vấn tuyển sinh PTIT 👋</h2>
+        <p>Em sẵn sàng giải đáp mọi thắc mắc về tuyển sinh, học phí, ngành học và điểm chuẩn năm 2026.</p>
+        <div class="welcome-chips">
+          <button class="wchip" onclick="sendExample(this)">Các phương thức xét tuyển?</button>
+          <button class="wchip" onclick="sendExample(this)">Học phí ngành CNTT?</button>
+          <button class="wchip" onclick="sendExample(this)">Điểm chuẩn năm 2025?</button>
+          <button class="wchip" onclick="sendExample(this)">Chỉ tiêu ngành AI?</button>
+        </div>
+      </div>`;
+    }
+
+    // ─── Send ─────────────────────────────────────────────────────────────────
+    function sendExample(btn) {
+      $('user-input').value = btn.textContent.trim();
+      sendMessage();
+    }
+
+    async function sendMessage() {
+      if (isStreaming) return;
+      const input = $('user-input');
+      const text = input.value.trim();
+      if (!text) return;
+
+      input.value = '';
+      input.style.height = 'auto';
+      isStreaming = true;
+      $('send-btn').disabled = true;
+
+      addUserBubble(text);
+      history.push({ role: 'user', content: text });
+
+      showTyping();
+
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: text, history: history.slice(0, -1) })
+        });
+
+        hideTyping();
+
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+        const contentEl = addBotBubble();
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let fullText = '';
+        let buffer = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split('\n');
+          buffer = lines.pop(); // keep incomplete line
+
+          for (const line of lines) {
+            if (!line.startsWith('data: ')) continue;
+            try {
+              const data = JSON.parse(line.slice(6));
+              if (data.type === 'chunk') {
+                fullText += data.content;
+                contentEl.innerHTML = marked.parse(fullText);
+                scrollBottom();
+              }
+            } catch (_) { }
+          }
+        }
+
+        if (fullText) {
+          history.push({ role: 'assistant', content: fullText });
+        }
+
+        // Remove active id
+        const ab = $('bot-bubble-active');
+        if (ab) ab.removeAttribute('id');
+
+      } catch (err) {
+        hideTyping();
+        const contentEl = addBotBubble();
+        contentEl.innerHTML = `⚠️ Lỗi kết nối: ${err.message}. Vui lòng thử lại sau.`;
+      } finally {
+        isStreaming = false;
+        $('send-btn').disabled = false;
+        input.focus();
+      }
+    }
+  </script>
+</body>
+
+</html>

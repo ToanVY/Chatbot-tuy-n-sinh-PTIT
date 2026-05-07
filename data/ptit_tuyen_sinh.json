@@ -1,0 +1,304 @@
+{
+  "truong": {
+    "ten": "Học viện Công nghệ Bưu chính Viễn thông",
+    "ten_viet_tat": "PTIT",
+    "website_tuyen_sinh": "https://tuyensinh.ptit.edu.vn/",
+    "thanh_lap": "Thành lập theo quyết định số 516/TTg ngày 11/7/1997 của Thủ tướng Chính phủ",
+    "truc_thuoc": "Bộ Thông tin và Truyền thông (từ 1/7/2014)",
+    "mo_ta": "Học viện Công nghệ Bưu chính Viễn thông là đơn vị sự nghiệp trực thuộc Bộ Thông tin và Truyền thông. Là trường đại học, đơn vị nghiên cứu, phát triển nguồn nhân lực trọng điểm của Ngành Thông tin và Truyền thông.",
+    "co_so": [
+      {
+        "ten": "Trụ sở chính (Cơ sở Hà Nội - BVH)",
+        "ma": "BVH",
+        "dia_chi": "Số 122 Hoàng Quốc Việt, phường Nghĩa Đô, thành phố Hà Nội"
+      },
+      {
+        "ten": "Cơ sở đào tạo tại Hà Nội",
+        "dia_chi": "Số 96A Trần Phú, phường Hà Đông, thành phố Hà Nội"
+      },
+      {
+        "ten": "Học viện cơ sở tại TP. Hồ Chí Minh (BVS)",
+        "ma": "BVS",
+        "dia_chi": "Số 11 Nguyễn Đình Chiểu, phường Sài Gòn, Thành phố Hồ Chí Minh"
+      },
+      {
+        "ten": "Cơ sở đào tạo tại TP Hồ Chí Minh",
+        "dia_chi": "Số 97 Man Thiện, phường Tăng Nhơn Phú, thành phố Hồ Chí Minh"
+      }
+    ],
+    "lien_he": {
+      "dien_thoai": "(024) 33528122",
+      "email": "tuyensinh@ptit.edu.vn",
+      "facebook": "https://www.facebook.com/ptittuyensinh/",
+      "don_vi": "Phòng Đào tạo - HVCNBCVT"
+    },
+    "portal": {
+      "cong_thong_tin_hoc_vien": "https://portal.ptit.edu.vn/",
+      "cong_dao_tao": "https://daotao.ptit.edu.vn/",
+      "tra_cuu_tuyen_sinh": "https://tracuu.ptit.edu.vn/",
+      "nop_ho_so": "https://xettuyen.ptit.edu.vn/",
+      "hop_tac_quoc_te": "https://htqt.ptit.edu.vn/",
+      "khoa_hoc_cong_nghe": "https://khcn.ptit.edu.vn/"
+    }
+  },
+  "hoc_bong": {
+    "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/chinh-sach-hoc-bong/",
+    "nam": 2026,
+    "cac_loai": [
+      {
+        "loai": "Học bổng đặc biệt",
+        "so_suat_toi_da": 30,
+        "gia_tri": "Lên tới 500 triệu đồng/suất",
+        "chi_tiet_gia_tri": "Gồm: học phí toàn thời gian học, chi phí ăn ở, kinh phí nghiên cứu khoa học, thực tập ở nước ngoài, kinh phí hỗ trợ từ doanh nghiệp đối tác",
+        "doi_tuong": [
+          "Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 29,0 điểm trở lên (không bao gồm điểm cộng)"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên trong thời gian học"
+      },
+      {
+        "loai": "Học bổng toàn phần",
+        "so_suat_toi_da": 50,
+        "gia_tri": "Lên tới 250 triệu đồng (tối đa bằng học phí toàn khóa chương trình chất lượng cao)",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Khuyến khích kỳ thi chọn học sinh giỏi quốc gia môn Toán, Vật lí, Tin học",
+          "Thí sinh đoạt giải Nhất kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,5 điểm trở lên"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng bán phần",
+        "so_suat_toi_da": 50,
+        "gia_tri": "Lên tới 100 triệu đồng (tối đa 100% học phí 2 năm đầu chương trình CLC)",
+        "doi_tuong": [
+          "Thí sinh đoạt giải Nhất, Nhì kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Tin học",
+          "Thí sinh có điểm thi tốt nghiệp THPT từ 28,0 điểm trở lên"
+        ],
+        "dieu_kien_duy_tri": "Điểm trung bình chung tích lũy đạt từ loại Giỏi trở lên"
+      },
+      {
+        "loai": "Học bổng miễn 100% học phí năm học thứ nhất",
+        "so_suat_toi_da": 100,
+        "gia_tri": "Miễn 100% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi học sinh giỏi quốc tế, quốc gia",
+          "Thí sinh đoạt giải Nhất, Nhì, Ba kỳ thi học sinh giỏi cấp Tỉnh/TP môn Toán, Vật lí, Hóa, Tin học",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT"
+        ]
+      },
+      {
+        "loai": "Học bổng miễn 50% học phí năm học thứ nhất",
+        "so_suat_toi_da": 300,
+        "gia_tri": "Miễn 50% học phí năm 1",
+        "doi_tuong": [
+          "Thí sinh đoạt giải kỳ thi học sinh giỏi",
+          "Thí sinh đạt kết quả cao kỳ thi tốt nghiệp THPT"
+        ]
+      }
+    ],
+    "hoc_bong_doanh_nghiep": [
+      "Samsung (Hàn Quốc)",
+      "Cowell Asia (Nhật Bản)",
+      "Tập đoàn Điện lực Nhật Bản Yokogawa (Nhật Bản)",
+      "Đại học Sydney (Úc)",
+      "TEMIX (Italy)",
+      "Bosch"
+    ],
+    "luu_y": "Thí sinh chỉ được xét và cấp một loại học bổng; xét cấp từ trên xuống cho đến hết số suất."
+  },
+  "tuyen_sinh_2025": {
+    "url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2025/",
+    "nam": 2025,
+    "hinh_thuc_dao_tao": [
+      "Đào tạo chính quy",
+      "Đào tạo vừa học vừa làm",
+      "Đào tạo từ xa"
+    ],
+    "phuong_thuc_xet_tuyen": [
+      {
+        "ma": "100",
+        "ten": "Xét điểm thi tốt nghiệp THPT"
+      },
+      {
+        "ma": "302",
+        "ten": "Xét điểm thi tốt nghiệp THPT (tổ hợp)"
+      },
+      {
+        "ma": "410",
+        "ten": "Xét kết quả học tập THPT (học bạ)"
+      },
+      {
+        "ma": "402",
+        "ten": "Xét điểm đánh giá năng lực (ĐGNL)"
+      }
+    ]
+  },
+  "tuyen_sinh_2026": {
+    "url": "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+    "nam": 2026,
+    "hinh_thuc_dao_tao": [
+      "Đào tạo chính quy",
+      "Đào tạo vừa học vừa làm",
+      "Đào tạo từ xa"
+    ]
+  },
+  "diem_trung_tuyen": {
+    "nam_2025": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-nam-2025/",
+      "co_so": ["BVH (Phía Bắc)", "BVS (Phía Nam)"],
+      "ghi_chu": "Có 2 nhóm ngành: Ngành đào tạo đại trà và Chương trình đặc biệt/CLC"
+    },
+    "nam_2024": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/",
+      "cac_nganh": [
+        {
+          "stt": 1,
+          "ma_nganh": "7320101",
+          "ten_nganh": "Báo chí",
+          "BVH_THPT": 25.29,
+          "BVH_TTNV": "TTNV=1",
+          "BVH_TN": 73.17,
+          "BVH_KH": 26.73,
+          "BVH_DGNL": 18.5
+        },
+        {
+          "stt": 2,
+          "ma_nganh": "7320104",
+          "ten_nganh": "Truyền thông đa phương tiện",
+          "BVH_THPT": 25.94,
+          "BVH_TTNV": "TTNV<=6",
+          "BVH_TN": 70.03,
+          "BVH_KH": 28.0,
+          "BVH_DGNL": 20.7
+        },
+        {
+          "stt": 3,
+          "ma_nganh": "7329001",
+          "ten_nganh": "Công nghệ đa phương tiện",
+          "BVH_THPT": 25.75,
+          "BVH_TTNV": "TTNV<=2"
+        }
+      ]
+    },
+    "nam_2023": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/",
+      "cac_nganh": [
+        {
+          "stt": 1,
+          "ten_nganh": "Kỹ thuật điện tử viễn thông",
+          "ma_nganh": "7520207",
+          "to_hop": "A00, A01",
+          "diem_THPT": 25.68,
+          "TTNV": "TTNV=1",
+          "diem_XTKH": 22.36,
+          "diem_DGNL_DGTD": 16.0
+        },
+        {
+          "stt": 2,
+          "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+          "ma_nganh": "7510301",
+          "to_hop": "A00, A01",
+          "diem_THPT": 25.01,
+          "TTNV": "TTNV<=2",
+          "diem_XTKH": 21.2,
+          "diem_DGNL_DGTD": 16.45
+        },
+        {
+          "stt": 3,
+          "ten_nganh": "Kỹ thuật Điều khiển và Tự động hóa",
+          "to_hop": "A00, A01"
+        }
+      ]
+    },
+    "nam_2022": {
+      "url": "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/",
+      "cac_nganh": [
+        {
+          "stt": 1,
+          "ten_nganh": "Kỹ thuật điện tử viễn thông",
+          "ma_nganh": "7520207",
+          "to_hop": "A00, A01",
+          "diem_THPT": 25.60,
+          "TTNV": "TTNV<=3",
+          "diem_XTKH": 22.60,
+          "diem_DGNL_DGTD": 19.45
+        },
+        {
+          "stt": 2,
+          "ten_nganh": "Công nghệ kỹ thuật điện, điện tử",
+          "ma_nganh": "7510301",
+          "to_hop": "A00, A01",
+          "diem_THPT": 25.1,
+          "TTNV": "TTNV<=2",
+          "diem_XTKH": 22.50,
+          "diem_DGNL_DGTD": 19.30
+        }
+      ]
+    }
+  },
+  "huong_dan_dang_ky": {
+    "url": "https://tuyensinh.ptit.edu.vn/huong-dan-dkxt/",
+    "cong_dang_ky": "https://xettuyen.ptit.edu.vn/",
+    "cong_tra_cuu": "https://tracuu.ptit.edu.vn/"
+  },
+  "cau_hoi_thuong_gap": [
+    {
+      "cau_hoi": "PTIT có những cơ sở đào tạo ở đâu?",
+      "tra_loi": "PTIT có 4 cơ sở: (1) Trụ sở chính: 122 Hoàng Quốc Việt, Hà Nội (mã BVH); (2) Cơ sở Hà Đông: 96A Trần Phú, Hà Đông, Hà Nội; (3) Học viện cơ sở tại TP.HCM: 11 Nguyễn Đình Chiểu (mã BVS); (4) Cơ sở TP.HCM: 97 Man Thiện, Tăng Nhơn Phú, TP.HCM."
+    },
+    {
+      "cau_hoi": "Liên hệ tư vấn tuyển sinh PTIT như thế nào?",
+      "tra_loi": "Điện thoại: (024) 33528122. Email: tuyensinh@ptit.edu.vn. Facebook: https://www.facebook.com/ptittuyensinh/"
+    },
+    {
+      "cau_hoi": "PTIT có những loại học bổng nào?",
+      "tra_loi": "PTIT có học bổng đặc biệt (tối đa 500 triệu/30 suất), học bổng toàn phần (250 triệu/50 suất), học bổng bán phần (100 triệu/50 suất), miễn 100% HP năm 1 (100 suất), miễn 50% HP năm 1 (300 suất), và học bổng doanh nghiệp từ Samsung, Yokogawa, Bosch..."
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2024 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2024 dao động từ khoảng 25 đến 27 điểm (thang 30) tùy ngành. Ví dụ: Báo chí 25.29, Truyền thông đa phương tiện 25.94, Công nghệ đa phương tiện 25.75. Xem chi tiết tại: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/"
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2023 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2023: Kỹ thuật điện tử viễn thông 25.68, Công nghệ kỹ thuật điện điện tử 25.01. Xem chi tiết tại: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/"
+    },
+    {
+      "cau_hoi": "Điểm chuẩn PTIT năm 2022 là bao nhiêu?",
+      "tra_loi": "Điểm chuẩn 2022: Kỹ thuật điện tử viễn thông 25.60, Công nghệ kỹ thuật điện điện tử 25.1. Xem chi tiết: https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/"
+    },
+    {
+      "cau_hoi": "PTIT xét tuyển bằng những phương thức nào?",
+      "tra_loi": "PTIT xét tuyển qua: (1) Điểm thi tốt nghiệp THPT; (2) Kết quả học tập THPT (học bạ); (3) Điểm đánh giá năng lực (ĐGNL). Có 2 cơ sở: BVH (Hà Nội) và BVS (TP.HCM)."
+    },
+    {
+      "cau_hoi": "Nộp hồ sơ xét tuyển PTIT ở đâu?",
+      "tra_loi": "Nộp hồ sơ trực tuyến tại: https://xettuyen.ptit.edu.vn/ hoặc tra cứu thông tin tại https://tracuu.ptit.edu.vn/"
+    },
+    {
+      "cau_hoi": "PTIT thành lập năm nào?",
+      "tra_loi": "Học viện Công nghệ Bưu chính Viễn thông (PTIT) được thành lập theo quyết định số 516/TTg của Thủ tướng Chính phủ ngày 11 tháng 7 năm 1997. Từ 1/7/2014, học viện chuyển về trực thuộc Bộ Thông tin và Truyền thông."
+    },
+    {
+      "cau_hoi": "Các hình thức đào tạo tại PTIT?",
+      "tra_loi": "PTIT đào tạo 3 hình thức: (1) Đào tạo chính quy; (2) Đào tạo vừa học vừa làm; (3) Đào tạo từ xa."
+    }
+  ],
+  "metadata": {
+    "ngay_crawl": "2026-05-06",
+    "nguon": [
+      "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2025/",
+      "https://tuyensinh.ptit.edu.vn/de-an-tuyen-sinh/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/tong-quan-hoc-vien/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/chinh-sach-hoc-bong/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-nam-2025/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2024/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2023/",
+      "https://tuyensinh.ptit.edu.vn/gioi-thieu/xem-diem-cac-nam-truoc/diem-trung-tuyen-2022/",
+      "https://tuyensinh.ptit.edu.vn/brochure-ptit-2025-2/",
+      "https://tuyensinh.ptit.edu.vn/huong-dan-dkxt/"
+    ],
+    "ghi_chu": "Dữ liệu điểm chuẩn chi tiết theo từng ngành cần crawl thêm bằng BeautifulSoup/Selenium do nội dung bảng được render bởi JavaScript"
+  }
+}
