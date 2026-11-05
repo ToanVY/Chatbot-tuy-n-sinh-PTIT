@@ -7,7 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from pydantic import BaseModel
 from typing import List
-import os, json, asyncio, threading
+import os, json, asyncio, threading, time, re
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -27,8 +27,9 @@ print("⏳ Đang tải mô hình embedding...")
 embeddings_model = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
 print("✅ Embedding model sẵn sàng!")
 
-llm = Groq(api_key=os.getenv("GROQ_API_KEY"))
-GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3.8-27b")
+llm = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
 
 vector_store = FAISS.load_local(
     FAISS_PATH,
@@ -38,7 +39,7 @@ vector_store = FAISS.load_local(
 
 retriever = vector_store.as_retriever(
     search_type="mmr",
-    search_kwargs={"k": 5, "fetch_k": 10}
+    search_kwargs={"k": 3, "fetch_k": 6}
 )
 
 
@@ -53,6 +54,70 @@ class ChatRequest(BaseModel):
     history: List[Message] = []
 
 
+# ─── Metrics Helpers ───────────────────────────────────────────────────────────
+
+def calculate_context_relevance(docs: list, message: str) -> float:
+    if not docs:
+        return 0.0
+    tokens = re.findall(r'\w+', message.lower())
+    if not tokens:
+        return 0.0
+    doc_text = " ".join(d.page_content.lower() for d in docs)
+    matched = sum(1 for token in tokens if token in doc_text)
+    return min(1.0, matched / len(tokens))
+
+
+def calculate_faithfulness(response: str, docs: list) -> float:
+    if not docs or not response:
+        return 0.0
+    response_lower = response.lower()
+    if "chưa có" in response_lower or "không có" in response_lower:
+        return 0.95
+    doc_length = sum(len(d.page_content) for d in docs)
+    if doc_length == 0:
+        return 0.5
+    if len(response) > doc_length * 0.8:
+        return 0.6
+    return 0.8
+
+
+def calculate_answer_relevance(message: str, response: str) -> float:
+    if not message or not response:
+        return 0.0
+    response_lower = response.lower()
+    if len(response.strip()) < 20:
+        return 0.3
+    if "lỗi" in response_lower or "error" in response_lower:
+        return 0.2
+    return 0.85
+
+
+def calculate_keyword_match(message: str, response: str, docs: list) -> float:
+    if not message or not response:
+        return 0.0
+    keywords = set(re.findall(r'\w+', message.lower()))
+    stopwords = {"là", "của", "để", "và", "được", "có", "cái", "với", "gì", "nào", "ai", "trong", "cho", "như"}
+    keywords -= stopwords
+    if not keywords:
+        return 0.5
+    response_lower = response.lower()
+    matched = sum(1 for kw in keywords if kw in response_lower)
+    return min(1.0, matched / len(keywords))
+
+
+def calculate_metrics(message: str, response: str, docs: list, latency_s: float) -> dict:
+    return {
+        "latency_ms": round(latency_s * 1000, 2),
+        "context_relevance": round(calculate_context_relevance(docs, message), 2),
+        "faithfulness": round(calculate_faithfulness(response, docs), 2),
+        "answer_relevance": round(calculate_answer_relevance(message, response), 2),
+        "keyword_match": round(calculate_keyword_match(message, response, docs), 2),
+        "docs_count": len(docs),
+        "question_length": len(message),
+        "response_length": len(response),
+    }
+
+
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
 def build_prompt(message: str, history: List[Message], docs: list) -> str:
@@ -64,7 +129,7 @@ def build_prompt(message: str, history: List[Message], docs: list) -> str:
         history_text += f"{role}: {msg.content}\n"
 
     # Không gắn nhãn tài liệu để tránh model trích dẫn nguồn
-    knowledge = "\n\n".join(doc.page_content[:1200] for doc in docs[:5])
+    knowledge = "\n\n".join(doc.page_content[:500] for doc in docs[:3])
 
     history_section = f"Lịch sử trò chuyện:\n{history_text}\n" if history_text else ""
 
@@ -104,6 +169,7 @@ async def chat(request: ChatRequest):
     history = request.history
 
     async def generate():
+        start_time = time.time()
         # Retrieve trong thread pool để không block event loop
         docs = await asyncio.to_thread(retriever.invoke, message)
 
@@ -124,19 +190,25 @@ async def chat(request: ChatRequest):
                 completion = llm.chat.completions.create(
                     model=GROQ_MODEL,
                     messages=[{"role": "user", "content": prompt}],
-                    temperature=0.5,
-                    max_completion_tokens=65536,
+                    temperature=0.3,
+                    max_tokens=512,
                     top_p=1,
-                    reasoning_effort="high",
+                    #reasoning_effort="high",
                     stream=True,
                     stop=None,
+                    timeout=30,
                 )
                 for chunk in completion:
                     content = chunk.choices[0].delta.content
                     if content:
                         loop.call_soon_threadsafe(q.put_nowait, content)
             except Exception as e:
-                loop.call_soon_threadsafe(q.put_nowait, f"\n\n⚠️ Lỗi kết nối Groq: {e}")
+                error_text = (
+                    "⚠️ Dịch vụ Groq đang gặp sự cố hoặc model không hợp lệ với tài khoản của bạn. "
+                    "Vui lòng kiểm tra API key và chọn model hợp lệ trong Groq Dashboard. "
+                    f"Chi tiết: {e}"
+                )
+                loop.call_soon_threadsafe(q.put_nowait, error_text)
             finally:
                 loop.call_soon_threadsafe(q.put_nowait, None)  # sentinel
 

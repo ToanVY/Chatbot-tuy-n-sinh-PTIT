@@ -26,7 +26,7 @@ try:
 except ImportError:
     DOCLING_AVAILABLE = False
     from langchain_community.document_loaders import PyMuPDFLoader
-    print("  ⚠️  Docling chưa cài, sử dụng PyMuPDF làm fallback. Chạy: pip install langchain-docling docling")
+    print("  Docling chưa cài, sử dụng PyMuPDF làm fallback. Chạy: pip install langchain-docling docling")
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -92,7 +92,7 @@ def load_pdf_docs(data_path: str) -> list[Document]:
                         doc.metadata["type"] = "pdf_docling"
                         docs.append(doc)
             except Exception as e:
-                print(f"  ⚠️  Lỗi Docling PDF {fp}: {e}")
+                print(f"   Lỗi Docling PDF {fp}: {e}")
         print(f"📕 PDF (Docling → Markdown): load {len(docs)} chunk")
     else:
         # ── Fallback: PyMuPDF từng trang ──

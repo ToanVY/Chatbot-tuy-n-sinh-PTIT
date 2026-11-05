@@ -15,11 +15,13 @@ embeddings_model = HuggingFaceEmbeddings(
 )
 
 # LLM (Groq)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3.8-27b")
 llm = ChatGroq(
-    api_key=os.getenv("GROQ_API_KEY"),
-    model_name="llama3-70b-8192",
+    api_key=GROQ_API_KEY,
+    model_name=GROQ_MODEL,
     temperature=0.3,
-)
+) if GROQ_API_KEY else None
 
 # Vector DB
 vector_store = FAISS.load_local(
@@ -77,10 +79,21 @@ Thông tin tham khảo:
 Câu hỏi: {message}
 """
 
-    partial = ""
-    for chunk in llm.stream(rag_prompt):
-        partial += chunk.content
-        yield partial
+    if not llm:
+        yield "⚠️ Groq chưa được cấu hình. Vui lòng điền API key hợp lệ vào file .env và khởi động lại ứng dụng."
+        return
+
+    try:
+        partial = ""
+        for chunk in llm.stream(rag_prompt):
+            partial += chunk.content
+            yield partial
+    except Exception as e:
+        yield (
+            "⚠️ Dịch vụ Groq đang gặp sự cố hoặc model không hợp lệ với tài khoản của bạn. "
+            "Vui lòng kiểm tra API key và chọn một model có quyền truy cập trong Groq Dashboard. "
+            f"Chi tiết: {e}"
+        )
 
 chatbot = gr.ChatInterface(
     stream_response,
